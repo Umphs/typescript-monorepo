@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@dia/flowchart",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "version": "0.0.1",
+  "files": [
+    "build"
+  ],
+  "peerDependencies": {
+    "@dia/diagram": "^0.0.1"
+  },
+  "devDependencies": {
+    "@dia/diagram": "*"
+  }
+}

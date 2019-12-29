@@ -1,0 +1,51 @@
+{
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ],
+  "files": [],
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "rootDir": ".",
+    "outDir": "lib",
+    "downlevelIteration": true,
+    "strict": true,
+    "removeComments": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@dia/*": [
+        "packages/*/src"
+      ]
+    },
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+  },
+  "references": [
+    {
+      "path": "packages/demo"
+    },
+    {
+      "path": "packages/diagram"
+    },
+    {
+      "path": "packages/flowchart"
+    }
+  ]
+}
